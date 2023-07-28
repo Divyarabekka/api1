@@ -35,10 +35,8 @@ body{
 .card-body{
     background-color: rgb(155, 153, 153);
 }
-.btn
-{
-    background-color: aliceblue;
-    color: black;
+a{
+    color: rgb(252, 19, 19);
 }
 h1{
     color: rgb(19, 16, 13);
