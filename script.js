@@ -13,7 +13,7 @@ res.then((data)=>data.json()).then((data1)=>{
     <h5 class="card-title">Duration:  ${data1[i].duration}</h5>
     <h5 class="card-title">Site:  ${data1[i].site}</h5>
     <h5 class="card-title">Status:  ${data1[i].status}</h5>
-    <p><a href="#" class="pe-auto">URL:${data1[i].url}</a></p>
+   <p><a href="${data1[i].url}" class="pe-auto"><u>Link</u></a></p>
     
   </div>
 </div>`
